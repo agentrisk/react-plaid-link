@@ -64,6 +64,7 @@ class PlaidLink extends Component {
         'transactions',
         'assets',
         'holdings',
+        'investments'
       ])
     ).isRequired,
 
@@ -164,6 +165,7 @@ class PlaidLink extends Component {
     return (
       <div>
         <button
+          type="button"
           onClick={this.handleOnClick}
           disabled={this.state.disabledButton}
           style={this.props.style}
