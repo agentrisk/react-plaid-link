@@ -5,6 +5,7 @@
   "files": [
     "dist/",
     "lib/",
+    "src/",
     "LICENSE"
   ],
   "main": "./lib/index.js",
